@@ -46,7 +46,7 @@ Serão disponibilizadas *endpoints* completamente aleatórias, sem qualquer sign
 
 ### Complexidade baixa
 
-- **GET**: /api/friends/seasons/{*seasonId*}/episodes
+- **GET**: /api/friends/seasons/{*seasonId*}/episodes -> **Guilherme Melo**
 	- Descrição: listagem de episódios de uma temporada
 	- Path parameters:
 		- *seasonId*: ID da temporada da série (de 1 a 10);
@@ -67,7 +67,7 @@ Serão disponibilizadas *endpoints* completamente aleatórias, sem qualquer sign
 ### Complexidade média
 
 
-- **GET**: /api/friends/seasons/{*seasonId*}/episodes/{*episodeId*}/villains
+- **GET**: /api/friends/seasons/{*seasonId*}/episodes/{*episodeId*}/villains -> **Guilherme Melo**
 	- Descrição: coleta de um episódio de uma temporada com uma sugestão de vilão de Stephen King a ser adicionado
 	- Path parameters:
 		- *seasonId*: ID da temporada da série (de 1 a 10);
@@ -107,7 +107,7 @@ Serão disponibilizadas *endpoints* completamente aleatórias, sem qualquer sign
 		- *shortStoryId*: ID da história curta do Stephen King (de 1 a 212).
 	- Response: um objeto [**Episódio**](#entities) com campos adicionais *suggested_short_story* (nome da história curta sugerida) e *suggested_useless_fact* (o fato inútil sugerido)
 
-- **GET**: /api/friends/seasons/{*seasonId*}/episodes/{*episodeId*}/books/{*bookId*}/useless-fact
+- **GET**: /api/friends/seasons/{*seasonId*}/episodes/{*episodeId*}/books/{*bookId*}/useless-fact -> **Guilherme Melo**
 	- Descrição: coleta de um episódio de uma temporada com uma sugestão de livro de Stephen King a ser adicionado com uma fala específica (fato inútil)
 	- Path parameters:
 		- *seasonId*: ID da temporada da série (de 1 a 10);
